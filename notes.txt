@@ -1,0 +1,45 @@
+Build and Deploy Your Own GPT AI Website with React and Turn it Into a SaaS Business ($$$)
+
+Repository:
+https://github.com/adrianhajdin/project_ai_summarizer
+
+Tutorial:
+
+A. Setup
+Sign-up to RapidAPI first (AI summarizer API)
+1. Create project folder: AI Summarizer
+2. Initialize react application using Vite
+3. Delete everything inside /src except main.jsx
+4. Delete vite.svg inside /public
+5. Install all the necessary dependencies
+    $ npm install @reduxjs/toolkit
+6. Copy zip assets folder:
+    https://drive.google.com/file/d/11DLzrWADT-GyhuHpWXobhUwqV8peC0ef/view
+7. Transer all assets inside /assets
+8. Transfer favicon.ico to /public
+----
+9. Create App.tsx inside /src (rafce)
+10. Create App.css inside /src
+----
+11. Search: Install Tailwind Css with Vite
+12. Initialize
+13. Configure template paths
+14. Add font inside 'extend' (check tailwind.config.js)
+15. Import font links (check /src/index.html)
+16. Note that tailwind is already utilized inside App.css
+17. Run application
+    $ npm run dev
+18. Remove import index.html inside /src/assets/main.jsx
+19. Change Title and icon link
+
+B. Building the App
+1. Create /components inside /src
+2. Create Demo.jsx inside /src/components (rafce)
+3. Create Hero.jsx inside /src/components (rafce)
+----
+4. Import Hero and Demo inside /src/App.jsx
+5. Remove 'react' import
+6. Import App.css inside /src/App.jsx
+7. Create divs inside /src/App.jsx
+    div.main and div.app
+8. Add <Hero /> and <Demo /> inside div.app
