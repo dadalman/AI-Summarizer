@@ -31,6 +31,7 @@ Sign-up to RapidAPI first (AI summarizer API)
     $ npm run dev
 18. Remove import index.html inside /src/assets/main.jsx
 19. Change Title and icon link
+20. Save changes!
 
 B. Building the App
 1. Create /components inside /src
@@ -43,3 +44,15 @@ B. Building the App
 7. Create divs inside /src/App.jsx
     div.main and div.app
 8. Add <Hero /> and <Demo /> inside div.app
+9. Save changes!
+
+C. Hero Section (everything is inside /src/components/Hero.jsx)
+1. Import { logo } from '../assets'
+2. Add header with className and explain Tailwind
+3. Install extension Tailwind CSS IntelliSense (explains css when you hover over the className)
+4. Add <nav> tag and add className
+5. Add <img> tag with src={logo}
+6. Add button
+7. Add <h1> inside <header> after <nav>
+8. Add <h2> for description, right under <h1>
+9. Save changes!
