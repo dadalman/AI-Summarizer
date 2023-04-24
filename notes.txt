@@ -56,3 +56,23 @@ C. Hero Section (everything is inside /src/components/Hero.jsx)
 7. Add <h1> inside <header> after <nav>
 8. Add <h2> for description, right under <h1>
 9. Save changes!
+
+D. Demo
+1. Import stateHooks from 'react' (explain stateHooks)
+2. Import from "../assets";
+3. Add <section> tag inside return()
+4. Comment out 'Search' inside the section and add <div>
+5. Add <img>, then <input>, then <button>
+6. Add comments:
+    // Browse URL History
+    // Display Results
+----
+7. Add useState 'article'
+8. Add handleSubmit 
+    // Fetch summary
+9. Add 'handleSubmit' inside onSubmit={} of <form>
+10. Add 'article.url' inside input value={}
+11 Change onChange={} inside input tag
+
+// Redux Toolkit Crash Course
+1.
